@@ -1,0 +1,53 @@
+.flex{
+    display: flex;
+}
+
+.item-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+
+.btn-primary{
+    color: aliceblue;
+    background-color: #22344d;
+    border-radius: 20px;
+}
+
+.btn-primary:hover {
+    color: transparent;
+    border-color: #c4daf9;
+    color: aliceblue;
+    
+}
+
+.btn-secondary{
+    color: white;
+    background-color: transparent;
+    border: 2px solid #22344d;
+}
+
+.btn-secondary:hover {
+    background-color: #22344d;
+    color: white;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.justify-center{
+    justify-content: center;
+}
